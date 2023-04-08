@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
-import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -31,12 +30,6 @@ export default function Home() {
       <div
           className={darkMode ? 'container_dark' : 'container_bright'}
       >
-        <DarkModeSwitch
-            style={{ marginBottom: '2rem' }}
-            checked={darkMode}
-            onChange={setDarkMode}
-            size={40}
-        />
 
         <div className='main-div'>
           <h1>Welcome to your website, Joy</h1>
