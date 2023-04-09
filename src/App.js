@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './App.css'
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false)
   const [github_src, setGithubSrc] = useState('https://i.imgur.com/qkgfyLX.png')
 
 
@@ -19,16 +18,10 @@ export default function Home() {
   ]
 
   useEffect(() => {
-    if (darkMode) {
-      setGithubSrc('https://i.imgur.com/AwgrBOi.png')
-    } else {
-      setGithubSrc('https://i.imgur.com/qkgfyLX.png')
-    }
-  }, [darkMode])
+  })
 
   return (
       <div
-          className={darkMode ? 'container_dark' : 'container_bright'}
       >
 
         <div className='main-div'>
@@ -43,13 +36,15 @@ export default function Home() {
             <img className='social-media_icon' src={github_src} alt='github' />
           </a>
         </div>
+        <div className='blank'>
 
+        </div>
         <div className='joy-container'>
           <h2 className='joy-title'>
             here are some of ur coteee pics :{'>'}
           </h2>
 
-          <div >
+          <div className='fadein'>
             {joy.map((joy, index) => (
                 <img
                     className='joy'
