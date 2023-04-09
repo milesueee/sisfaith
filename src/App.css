@@ -12,15 +12,14 @@ body {
     font: 400 16px Roboto, sans-serif;
 }
 .main-div h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin: 0;
     text-align: center;
 }
 .main-div h2 {
-    font-size: 1.8rem;
-    margin: 0;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem 0 0;
 }
 .container_dark, .container_bright {
     transition: background-color 0.4s ease, color 0.4s ease;
@@ -70,6 +69,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font: 400 16px Roboto, sans-serif;
 }
 .joy-container {
@@ -91,9 +91,8 @@ footer {
     transform: scale(1.1);
 }
 .joy-title {
-    font-size: 2rem;
     margin: 0;
     text-align: center;
-    font: 400 40px Roboto, sans-serif;
+    font: 400 20px Roboto, sans-serif;
     margin-bottom: 2.5rem;
 }
