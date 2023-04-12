@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </div>
 
-        <footer>There isn't really anything else in here except u soo fineee🤌🤌🤩🤩</footer>
+        <footer>There isn't really anything else in here except u soo fineee HAHAHAHAHAHA🤌🤌🤩🤩</footer>
       </div>
   )
 }
