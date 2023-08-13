@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import './App.css';
-import Loader from './Loader';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+
 
   const joy = [
     'https://imgur.com/VaBXlrE.jpg',
@@ -16,14 +15,11 @@ function App() {
 
   useEffect(() => {
     // Wait for 3 seconds before hiding the loader
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
+
   }, []);
 
   return (
     <div>
-      {loading ? <Loader /> : null}
 
       <div className="main-div">
         <h1>Welcome to your website, sis</h1>
@@ -54,7 +50,8 @@ function App() {
                               Your browser does not support the video tag.
                           </video>
                       ) : (
-                          <img className="joy" src={item} alt={`joy ${index}`} />
+                          <img className="
+" src={item} alt={`joy ${index}`} />
                       )
               ))}
         </div>
