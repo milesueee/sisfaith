@@ -25,7 +25,7 @@ function App() {
     <div>
 
       <div className="main-div">
-        <h1>Welcome to your website, sis</h1>
+        <h1>helur sis</h1>
         <h2>Stay as long as you'd like</h2>
       </div>
 
