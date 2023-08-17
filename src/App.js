@@ -26,7 +26,7 @@ function App() {
 
       <div className="main-div">
         <h1>helur sis</h1>
-        <h2>mama mo</h2>
+        <h2>mama mooo</h2>
       </div>
 
 
