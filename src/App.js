@@ -5,6 +5,9 @@ function App() {
 
 
   const joy = [
+      'https://imgur.com/vBFNY1y.jpg',
+      'https://imgur.com/r8Z6xxa.jpg',
+      'https://imgur.com/CwUkBLV.jpg',
     'https://imgur.com/VaBXlrE.jpg',
     'https://imgur.com/Lbqe15t.jpg',
     'https://imgur.com/gwm8noy.jpg',
@@ -26,15 +29,6 @@ function App() {
         <h2>Stay as long as you'd like</h2>
       </div>
 
-      <div className="social-media_container">
-        <a href="https://github.com/milesueee">
-          <img
-            className="social-media_icon"
-            src="https://i.imgur.com/qkgfyLX.png"
-            alt="github"
-          />
-        </a>
-      </div>
 
       <div className="blank"></div>
 
