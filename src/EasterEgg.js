@@ -24,9 +24,12 @@ function EasterEgg({ gifUrl }) {
 
   return (
     <div>
-      {showGif && <img src={"https://giphy.com/gifs/warnerbrosde-R6gvnAxj2ISzJdbA63"} alt="Easter Egg" />}
+      {showGif && <img src={"./gif.gif"} alt="Easter Egg" />}
     </div>
   );
 }
 
 export default EasterEgg;
+
+
+
