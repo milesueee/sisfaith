@@ -42,10 +42,12 @@ function App() {
         <h2>mama mooo</h2>
       </div>
 
-      <div className="blank"></div>
-      <div className="easterEgg">
+      <div className="blank">
+            <div className="easterEgg">
       <EasterEgg gifUrl="https://imgur.com/fw8xw8F.gif" />
+      </div>  
       </div>
+
 
       <div className="joy-container">
         <h2 className="joy-title">pics mo gaga </h2>
