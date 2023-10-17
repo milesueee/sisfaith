@@ -44,7 +44,7 @@ function App() {
       </footer>
 
       {/* Add the EasterEgg component with the GIF URL */}
-      <EasterEgg gifUrl="https://giphy.com/gifs/warnerbrosde-R6gvnAxj2ISzJdbA63" />
+      <EasterEgg gifUrl="https://imgur.com/fw8xw8F" />
     </div>
   );
 }
