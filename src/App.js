@@ -43,10 +43,10 @@ function App() {
       </div>
 
       <div className="blank">
-            <div className="easterEgg">
-      <EasterEgg gifUrl="https://imgur.com/fw8xw8F.gif" />
-      </div>  
-      </div>
+        <EasterEgg gifUrl="https://imgur.com/fw8xw8F.gif" />
+        </div>
+ 
+      
 
 
       <div className="joy-container">

@@ -103,11 +103,7 @@ footer {
 .blank {
     width: 100%;
     height: 500px;
-}
-.easterEgg {
-    display: block;
     position: relative; /* Add position: relative for z-index to work */
-    z-index: 999; /* A high value to bring it forward */
     justify-content: center;
     align-items: center;
 }
