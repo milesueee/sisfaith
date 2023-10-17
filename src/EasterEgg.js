@@ -5,7 +5,7 @@ function EasterEgg({ gifUrl }) {
 
   useEffect(() => {
     const handleKeyPress = (event) => {
-      if (event.key === 'l') {
+      if (event.key === 'charisjoy') {
         setShowGif(true);
 
         // Set a timer to hide the GIF after a few seconds (e.g., 3 seconds)

@@ -5,8 +5,31 @@ import EasterEgg from './EasterEgg.js';
 function App() {
 
 
- const joy = [
-      'https://imgur.com/i1XwVNp.jpg',
+  const joy = [
+    'https://imgur.com/i1XwVNp.jpg',
+    'https://imgur.com/vBFNY1y.jpg',
+    'https://imgur.com/r8Z6xxa.jpg',
+    'https://imgur.com/CwUkBLV.jpg',
+  'https://imgur.com/VaBXlrE.jpg',
+  'https://imgur.com/Lbqe15t.jpg',
+  'https://imgur.com/gwm8noy.jpg',
+    'https://imgur.com/Bzb0kep.jpg',
+  'https://imgur.com/rrQfYog.jpg',
+  'https://imgur.com/HV6R2NB.jpg',
+  'https://imgur.com/AOoqwcw.mp4',
+    'https://imgur.com/drmjC7L.jpg',
+    'https://imgur.com/3CBqf7Q.jpg',
+    'https://imgur.com/Hz2q8kb.jpg',
+    'https://imgur.com/JzmydWm.jpg',
+    'https://imgur.com/fOVeBzn.jpg',
+    'https://imgur.com/DEfN4EF.jpg',
+    'https://imgur.com/60R1OYO.mp4',
+    'https://imgur.com/ODhg3fT.jpg',
+    'https://imgur.com/vyB4R9Q.mp4',
+    'https://imgur.com/7KkYivX.jpg',
+    'https://imgur.com/93xfsoB.jpg',
+    'https://imgur.com/5A8iRep.jpg',
+    'https://imgur.com/7z9VbFA.jpg',
   ]; 
  
   useEffect(() => {
