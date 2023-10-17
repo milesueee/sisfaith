@@ -24,7 +24,7 @@ function EasterEgg({ gifUrl }) {
 
   return (
     <div>
-      {showGif && <img src={"./gif.gif"} alt="Easter Egg" />}
+      {showGif && <img src={'./gif.gif'} alt="Easter Egg" />}
     </div>
   );
 }
