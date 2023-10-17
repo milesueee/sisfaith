@@ -5,7 +5,7 @@ function EasterEgg({ gifUrl }) {
 
   useEffect(() => {
     const handleKeyPress = (event) => {
-      if (event.key === 'charisjoy') {
+      if (event.key === 'c') {
         setShowGif(true);
 
         window.scrollTo({
