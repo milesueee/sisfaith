@@ -8,11 +8,6 @@ function EasterEgg({ gifUrl }) {
       if (event.key === 'c') {
         setShowGif(true);
 
-        window.scrollTo({
-          top: document.documentElement.scrollHeight / 2,
-          behavior: 'smooth', // Use 'auto' for instant scroll
-        });
-
         // Set a timer to hide the GIF after a few seconds (e.g., 3 seconds)
         setTimeout(() => {
           setShowGif(false);

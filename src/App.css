@@ -103,7 +103,7 @@ footer {
 .blank {
     width: 100%;
     height: 500px;
-    position: relative; /* Add position: relative for z-index to work */
+    display: flex; /* Add position: relative for z-index to work */
     justify-content: center;
     align-items: center;
 }
