@@ -1,6 +1,6 @@
 import React, { useEffect} from 'react';
 import './App.css';
-import EasterEgg from './EasterEgg';
+import EasterEgg from './EasterEgg.js';
 
 function App() {
 
