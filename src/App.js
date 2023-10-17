@@ -5,7 +5,7 @@ import EasterEgg from './EasterEgg.js';
 function App() {
 
 
-  const joy = [
+/*  const joy = [
       'https://imgur.com/i1XwVNp.jpg',
       'https://imgur.com/vBFNY1y.jpg',
       'https://imgur.com/r8Z6xxa.jpg',
@@ -30,8 +30,8 @@ function App() {
       'https://imgur.com/93xfsoB.jpg',
       'https://imgur.com/5A8iRep.jpg',
       'https://imgur.com/7z9VbFA.jpg',
-  ];
-
+  ]; */
+ 
   useEffect(() => {
   }, []);
 
