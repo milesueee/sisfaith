@@ -20,6 +20,9 @@ function App() {
       </div>
 
       <div className="blank"></div>
+      <div className="easterEgg">
+      <EasterEgg gifUrl="https://imgur.com/fw8xw8F.gif" />
+      </div>
 
       <div className="joy-container">
         <h2 className="joy-title">pics mo gaga </h2>
@@ -44,7 +47,7 @@ function App() {
       </footer>
 
       {/* Add the EasterEgg component with the GIF URL */}
-      <EasterEgg gifUrl="https://imgur.com/fw8xw8F.gif" />
+      
     </div>
   );
 }
