@@ -11,7 +11,7 @@ function EasterEgg({ gifUrl }) {
         // Set a timer to hide the GIF after a few seconds (e.g., 3 seconds)
         setTimeout(() => {
           setShowGif(false);
-        }, 3000);
+        }, 10000);
       }
     };
 
